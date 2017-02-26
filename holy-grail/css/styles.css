@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+.wrapper > * {
+  flex: 1 100%;
+}
+.header {
+  border: 2px black solid;
+}
+.menu {
+  border: 2px black solid;
+  flex: 1 auto;
+  order: 1;
+}
+.content {
+  border: 2px black solid;
+  flex: 4;
+  order: 2;
+}
+.footer {
+  border: 2px black solid;
+  order: 4;
+}
+.right {
+  border: 2px black solid;
+  flex: 1 auto;
+  order: 3;
+}
