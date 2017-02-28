@@ -10,8 +10,8 @@
   flex-wrap: wrap;
 }
 .box {
-  height: 12.5%;
-  width: 12.5%;
+  height: 50px;
+  min-width: 50px;
 }
 .tan {
   background: tan;
@@ -22,10 +22,4 @@
   background: brown;
   text-align: center;
   font-size: 200%;
-}
-.font1{
-  color: brown;
-}
-.font2{
-  color: tan;
 }
