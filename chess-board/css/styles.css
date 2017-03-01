@@ -1,12 +1,12 @@
 
 .wrapper{
-  width: 400px;
   margin: 0 auto;
+  width: 400px;
 }
 
 .main-board {
-  display: flex;
   background: black;
+  display: flex;
   flex-wrap: wrap;
 }
 .box {
@@ -15,11 +15,11 @@
 }
 .tan {
   background: tan;
-  text-align: center;
   font-size: 200%;
+  text-align: center;
 }
 .brown {
   background: brown;
-  text-align: center;
   font-size: 200%;
+  text-align: center;
 }
