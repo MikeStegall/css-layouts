@@ -12,93 +12,140 @@
 
 .left, .right {
 flex: 1;
+height: 100%;
+display: flex;
+flex-flow: column;
 }
 .column1, .column4 {
 flex: 3;
+height: 100%;
+display: flex;
+flex-flow: column;
 }
 .column2, .column3 {
 flex: 2;
+height: 100%;
+display: flex;
+flex-flow: column;
 }
-.column3 {
-
+.rowone {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
 }
-.column4 {
-
+.rowtwo {
+  display: flex;
+  flex-flow: row;
+  flex: 2;
 }
-.right {
-
+.nine-ten{
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+.bottom-column1{
+  display: flex;
+  flex: 2;
+}
+.right-bottom-column1 {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+}
+.left-bottom-column1 {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+}
+.bottom {
+  display: flex;
+  flex: 2;
+}
+.bottom1{
+  display: flex;
+  flex: 1.76
+}
+.top-column4 {
+  display: flex;
+  flex: 1;
 }
 .one {
 border-right: none;
+flex: 1.12;
 }
 .two{
-
+flex: 2;
 }
 .three {
-
+flex: 3;
 }
 .four{
-
+flex: 3;
 }
 .five{
 border-right: none;
+flex: 1
 }
 .six {
 border-left: none;
+flex: 1;
 }
 .seven{
-
+flex: 3;
 }
 .eight {
  background: red;
+ flex: 3.5;
 }
 .nine{
 background: grey;
+flex: 1;
 }
 .ten {
-
+  flex: 1;
 }
 .eleven {
-
+  flex: 1
 }
 .twelve {
-
+  flex: 2;
 }
 .thirteen{
-
+  flex: 1.6;
 }
 .fourteen {
-
+  flex: 1;
 }
 .fifteen {
-
+flex: 1;
 }
 .sixteen {
 border-left: none;
+flex: 1;
 }
 .seventeen{
-
+flex: 1;
 }
 .eighteen {
-
+flex: 2;
 }
-.ninteen {
-
+.nineteen {
+flex: 1;
 }
 .twenty {
-
+flex: 1;
 }
 .twentyone {
-
+flex: 1;
 }
 .twentytwo {
-
+flex: 1.7;
 }
 .twentythree {
-
+flex: 1.25;
 }
 .twentyfour {
-
+flex: 1;
 }
 .twentyfive {
 
@@ -107,68 +154,70 @@ border-left: none;
 
 }
 .twentyseven {
-
+flex: 1;
 }
 .twentyeight {
-
+flex: 1;
 }
 .twentynine {
 
 }
 .thirty {
-
+flex: 1;
 }
 .thirtyone {
-
+flex: 1;
 }
 .thirtytwo {
-
+flex: 1;
 }
 .thirtythree {
-
+flex: 1;
 }
 .thirtyfour {
-
+flex: 2;
 }
 .thirtyfive {
-
+flex: 1;
 }
 .thirtysix {
-
+flex: 1;
 }
 .thirtyseven {
 
 }
 .thirtyeight {
-
+flex: 1;
 }
 .thirtynine {
-
+flex: 1;
 }
 .forty {
 
 }
 .fortyone {
-
+flex: 3.5;
 }
 .fortytwo {
-
+flex: 3;
 }
 .fortythree {
 border-right: none;
+flex: 1;
 }
 .fortyfour {
-
+flex: 1;
 }
 .fortyfive {
-
+flex: 3;
 }
 .fortysix {
-
+flex: 3;
 }
 .fortyseven {
-
+flex: 2;
 }
 .fortyeight {
 border-left: none;
+flex: 1;
 }
