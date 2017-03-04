@@ -2,6 +2,7 @@
 .wrapper{
   margin: 0 auto;
   width: 400px;
+  height: 400px;
 }
 
 .main-board {
@@ -10,8 +11,8 @@
   flex-wrap: wrap;
 }
 .box {
-  height: 50px;
-  min-width: 50px;
+  min-height: 7.925vh;
+  min-width: 12.5%;
 }
 .tan {
   background: tan;
